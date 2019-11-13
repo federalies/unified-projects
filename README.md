@@ -4,9 +4,9 @@ meta-repo for contributions to the unnifedjs community
 
 ## Projects:
 
-- __vfile-create-effects__
+- __[vfile-create-effects](https://github.com/federalies/vfile-create-effects)__
   - util that allows plugin authors to emit new data that models side effects that still needing to be processed
-- __vfile-handle-effects__
+- __[vfile-handle-effects](https://github.com/federalies/vfile-handle-effects)__
   - a batteries inluded plugin that installs and uses all the following default `vfile-handle-effects-*` functions.
 - __vfile-handle-effects-fs__
   - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the data represents files to be written to the fs.
