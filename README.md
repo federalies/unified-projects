@@ -7,11 +7,13 @@ meta-repo for contributions to the unnifedjs community
 - __vfile-create-effects__
   - util that allows plugin authors to emit new data that models side effects that still needing to be processed
 - __vfile-handle-effects-fs__
-  - util that allows plugin authors to emit new data that models side effects that still needing to be processed
+  - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the data represents files to be written to the fs
 - __vfile-handle-effects-http__
-  - util that allows plugin authors to emit new data that models side effects that still needing to be processed
+  - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the data is an http call needing to be requested.
+- __vfile-handle-effects-socket__
+  - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the data is a message to drop on a socket/websocket/zeromq connection etc. [FUTURE]
 - __vfile-handle-effects-DOM__
-  - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the 
+  - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the effect is a virtual-DOM tree needing to be applied at some tree location. [FUTURE]
 - __vfile-subscriptions__
   - [FUTURE Project] vfile effects could then be used as inputs for other plugins and effects
 - __vfile-handle-effects__
