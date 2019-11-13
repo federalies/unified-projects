@@ -6,8 +6,10 @@ meta-repo for contributions to the unnifedjs community
 
 - __vfile-create-effects__
   - util that allows plugin authors to emit new data that models side effects that still needing to be processed
+- __vfile-handle-effects__
+  - a batteries inluded plugin that installs and uses all the following default `vfile-handle-effects-*` functions.
 - __vfile-handle-effects-fs__
-  - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the data represents files to be written to the fs
+  - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the data represents files to be written to the fs.
 - __vfile-handle-effects-http__
   - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the data is an http call needing to be requested.
 - __vfile-handle-effects-socket__
@@ -16,8 +18,6 @@ meta-repo for contributions to the unnifedjs community
   - util that allows plugin authors to emit new data that models side effects that still needing to be processed - where the effect is a virtual-DOM tree needing to be applied at some tree location. [FUTURE]
 - __vfile-subscriptions__
   - [FUTURE Project] vfile effects could then be used as inputs for other plugins and effects
-- __vfile-handle-effects__
-  - batteries inluded plugin that applies the default effect handlers for each of the various types of side effects
 - __unist-utill-slice__
   - chops up a unist tree into non-overlapping slices based on designated separator nodes
 - __unist-util-chunk__
