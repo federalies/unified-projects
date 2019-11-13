@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "create-effects": "git@github.com:federalies/vfile-create-effects.git",
+    "handle-effects": "git@github.com:federalies/vfile-handle-effects.git"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "unified-projects",
+  "version": "1.0.0",
+  "description": "meta-repo for contributions to the unnifedjs community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federalies/unified-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/federalies/unified-projects/issues"
+  },
+  "homepage": "https://github.com/federalies/unified-projects#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "meta": "^2.2.8"
+  }
+}
