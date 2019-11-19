@@ -43,48 +43,78 @@ meta-repo for contributions to the unnifedjs community
 
 ### Templast Ecosystem (All work in progress)
 
-- [templast](https://github.com/federalies/templast)
+- __[templast](https://github.com/federalies/templast)__
 
 #### Handlebars Support
-- [templast-hbs-parse](#)
+- __[templast-hbs-parse](#)__
   parse handlebars templates
-- [templast-hbs-verify](#) 
+- __[templast-hbs-verify](#)__
   parse handlebars templates // TASTY --> HBS dialect
-- [templast-hbs-stringify](#)
+- __[templast-hbs-stringify](#)__
   parse handlebars templates  --> HBS Dialect --> string
 
 #### mustache Support
-- [templast-mustache-parse](#)
-- [templast-mustache-verify](#) 
+- __[templast-mustache-parse](#)__
+- __[templast-mustache-verify](#)__
   assigns `warnings` or `failures` to the template if the source file was from some other template system and is now going to be rendered as a mustache file.
-- [templast-mustache-stringify](#)
+- __[templast-mustache-stringify](#)__
 
 ### doT Support
-- [templast-doT-parse](#)
+- __[templast-doT-parse](#)__
   incorporate doT templates into `templast`
-- [templast-doT-verify](#)
+- __[templast-doT-verify](#)__
   incorporate doT templates into `templast`
-- [templast-doT-stringify](#)
+- __[templast-doT-stringify](#)__
   incorporate doT templates into `templast`
 
 #### apacheVTL Support
-- [templast-apacheVTL-parse](#)
+- __[templast-apacheVTL-parse](#)__
   incorporate apacheVTL templates into `templast`
-- [templast-apacheVTL-verify](#)
+- __[templast-apacheVTL-verify](#)__
   incorporate apacheVTL templates into `templast`
-- [templast-apacheVTL-stringify](#)
+- __[templast-apacheVTL-stringify](#)__
   incorporate apacheVTL templates into `templast`
 
-### jsTempalteLiterals Support
-- [templast-jsTemplateLiterals-parse](#)
+### js Tempalte Literals
+- __[templast-jsTemplateLiterals-parse](#)__
   incorporate jsTemplateLiterals into `templast`
-- [templast-verify-jsTemplateLiterals](#)
+- __[templast-verify-jsTemplateLiterals](#)__
   incorporate jsTemplateLiterals into `templast`
-- [templast-jsTemplateLiterals-stringify](#)
+- __[templast-jsTemplateLiterals-stringify](#)__
   incorporate jsTemplateLiterals into `templast`
+
+#### EJS Support
+- __[templast-ejs-parse](#)__
+  incorporate apacheVTL templates into `templast`
+- __[templast-ejs-verify](#)__
+  incorporate apacheVTL templates into `templast`
+- __[templast-ejs-stringify](#)__
+  incorporate apacheVTL templates into `templast`
+
+#### EJS Support
+- __[templast-ejs-parse](#)__
+  incorporate apacheVTL templates into `templast`
+- __[templast-ejs-verify](#)__
+  incorporate apacheVTL templates into `templast`
+- __[templast-ejs-stringify](#)__
+  incorporate apacheVTL templates into `templast`
+
+
+#### JADE Support
+- __[templast-ejs-parse](#)__
+  incorporate apacheVTL templates into `templast`
+- __[templast-ejs-verify](#)__
+  incorporate apacheVTL templates into `templast`
+- __[templast-ejs-stringify](#)__
+  incorporate apacheVTL templates into `templast`
+
+
 
 ## Roadmap
 
+- type-system guarentees
+- help needed for `jade`
+- help needed for `pug`
 - subset of `EJS`
 - subset of `ERB`
 - explore supporting some subset of "PHP templates"
