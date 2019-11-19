@@ -41,6 +41,61 @@ meta-repo for contributions to the unnifedjs community
 - __[vfile-subscriptions](https://github.com/federalies/vfile-subscriptions)__
   - [FUTURE Project] vfile effects could then be used as inputs for other plugins and effects
 
+### Templast Ecosystem (All work in progress)
+
+- [templast](https://github.com/federalies/templast)
+
+#### Handlebars Support
+- [templast-hbs-parse](#)
+  parse handlebars templates
+- [templast-hbs-verify](#) 
+  parse handlebars templates // TASTY --> HBS dialect
+- [templast-hbs-stringify](#)
+  parse handlebars templates  --> HBS Dialect --> string
+
+#### mustache Support
+- [templast-mustache-parse](#)
+- [templast-mustache-verify](#) 
+  assigns `warnings` or `failures` to the template if the source file was from some other template system and is now going to be rendered as a mustache file.
+- [templast-mustache-stringify](#)
+
+### doT Support
+- [templast-doT-parse](#)
+  incorporate doT templates into `templast`
+- [templast-doT-verify](#)
+  incorporate doT templates into `templast`
+- [templast-doT-stringify](#)
+  incorporate doT templates into `templast`
+
+#### apacheVTL Support
+- [templast-apacheVTL-parse](#)
+  incorporate apacheVTL templates into `templast`
+- [templast-apacheVTL-verify](#)
+  incorporate apacheVTL templates into `templast`
+- [templast-apacheVTL-stringify](#)
+  incorporate apacheVTL templates into `templast`
+
+### jsTempalteLiterals Support
+- [templast-jsTemplateLiterals-parse](#)
+  incorporate jsTemplateLiterals into `templast`
+- [templast-verify-jsTemplateLiterals](#)
+  incorporate jsTemplateLiterals into `templast`
+- [templast-jsTemplateLiterals-stringify](#)
+  incorporate jsTemplateLiterals into `templast`
+
+## Roadmap
+
+- subset of `EJS`
+- subset of `ERB`
+- explore supporting some subset of "PHP templates"
+
+### Usage
+
+`npm start` will download a ton of other git repos into the packages folder. 
+Where each of the packages have their own repo and lifecycle.
+
+Then use the `npx meta` command to manage all those sub-repos in some type of `lerna-overlord-style`
+
 ### PIPEDREAMS
 
 - to-and-fro-Apache-Velocity-Templates

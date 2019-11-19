@@ -2,6 +2,6 @@
   "projects": {
     "packages/create-effects": "https://github.com/federalies/vfile-create-effects.git",
     "packages/handle-effects": "https://github.com/federalies/vfile-handle-effects.git",
-    "packages/templateAST": "https://github.com/federalies/templateAST.git"
+    "packages/templateAST": "https://github.com/federalies/templast.git"
   }
 }
