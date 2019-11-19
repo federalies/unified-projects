@@ -61,5 +61,8 @@ typings/
 .next
 
 #git submodules
-/create-effects/
-/handle-effects/
+/packages
+/packages*
+/packages/create-effects/
+/packages/handle-effects/
+/packages/tempalteAST/

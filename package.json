@@ -1,23 +1,29 @@
 {
   "name": "unified-projects",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "meta-repo for contributions to the unnifedjs community",
   "main": "index.js",
+  "homepage": "https://github.com/federalies/unified-projects#readme",
+  "author": "Eric D Moore",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"meta loop git update && meta loop npm run install",
+    "rebuildAll":"meta loop npm rb",
+    "testAll": "meta npm run test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/federalies/unified-projects.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/federalies/unified-projects/issues"
   },
-  "homepage": "https://github.com/federalies/unified-projects#readme",
-  "dependencies": {},
+  "dependencies": {
+    "meta": "^2.2.8",
+    "meta-exec": "^1.4.1",
+    "meta-loop": "^1.2.2",
+    "meta-npm": "^1.2.3"
+  },
   "devDependencies": {
-    "meta": "^2.2.8"
   }
 }
